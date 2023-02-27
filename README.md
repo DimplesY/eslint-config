@@ -2,4 +2,4 @@
 
 My personal ESLint config
 
-Forked from antfu/eslint-config
+Forked from [antfu/eslint-config](https://github.com/antfu/eslint-config)
