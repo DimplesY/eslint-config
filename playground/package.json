@@ -1,0 +1,15 @@
+{
+  "name": "@dimplesyj/eslint-config-playground",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@dimplesyj/eslint-config-basic": "workspace:*",
+    "eslint": "^8.35.0"
+  }
+}

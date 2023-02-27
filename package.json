@@ -1,0 +1,18 @@
+{
+  "name": "@dimplesyj/eslint-config-monorepo",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.28.0",
+  "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "devDependencies": {
+    "bumpp": "^9.0.0",
+    "eslint": "^8.35.0",
+    "rimraf": "^4.1.2",
+    "typescript": "^4.9.5"
+  }
+}
