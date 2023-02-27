@@ -1,7 +1,9 @@
 {
-  "name": "@dimplesyj/eslint-config-typescript",
+  "name": "@dimplesyj/eslint-config-ts",
   "version": "0.0.1",
   "description": "DimplesY's ESLint config presets",
+  "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
+  "license": "MIT",
   "keywords": [
     "eslint-config"
   ],
@@ -9,17 +11,17 @@
   "files": [
     "index.js"
   ],
-  "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
-  "license": "MIT",
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "@dimplesyj/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
-    "eslint": "^8.35.0",
     "eslint-define-config": "^1.15.0",
     "eslint-plugin-jest": "^27.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
   }
 }

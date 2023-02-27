@@ -1,5 +1,5 @@
 {
-  "name": "@dimplesyj/eslint-config",
+  "name": "@dimplesyj/eslint-config-vue",
   "version": "0.0.1",
   "description": "DimplesY's ESLint config presets",
   "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
@@ -15,7 +15,11 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-define-config": "^1.15.0"
+    "@dimplesyj/eslint-config-basic": "workspace:*",
+    "@dimplesyj/eslint-config-ts": "workspace:*",
+    "eslint-define-config": "^1.15.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
     "eslint": "^8.35.0"

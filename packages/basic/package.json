@@ -3,21 +3,20 @@
   "version": "0.0.1",
   "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
   "license": "MIT",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "keywords": [
     "eslint-config"
   ],
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
   "main": "index.js",
   "files": [
     "*.js"
   ],
-  "devDependencies": {
-    "eslint": "^8.35.0",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
     "eslint-define-config": "^1.15.0",
     "eslint-plugin-antfu": "^0.35.3",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -33,5 +32,8 @@
     "eslint-plugin-yml": "^1.5.0",
     "jsonc-eslint-parser": "^2.1.0",
     "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
   }
 }

@@ -5,11 +5,12 @@
   "packageManager": "pnpm@7.28.0",
   "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
   "license": "MIT",
+  "keywords": [],
   "scripts": {
     "lint": "eslint ."
   },
-  "keywords": [],
   "devDependencies": {
+    "@dimplesyj/eslint-config-basic": "workspace:^0.0.1",
     "bumpp": "^9.0.0",
     "eslint": "^8.35.0",
     "rimraf": "^4.1.2",
