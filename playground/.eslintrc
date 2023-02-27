@@ -1,3 +1,3 @@
 {
-  "extends": ["@dimplesyj/eslint-config-basic"]
+  "extends": ["@dimplesyj/eslint-config-typescript"]
 }

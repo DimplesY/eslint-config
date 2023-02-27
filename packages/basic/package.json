@@ -6,10 +6,16 @@
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "eslint-config"
+  ],
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "devDependencies": {
     "eslint": "^8.35.0",
     "eslint-define-config": "^1.15.0",

@@ -1,0 +1,22 @@
+{
+  "name": "@dimplesyj/eslint-config",
+  "version": "0.0.1",
+  "description": "DimplesY's ESLint config presets",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  },
+  "dependencies": {
+    "eslint-define-config": "^1.15.0"
+  }
+}

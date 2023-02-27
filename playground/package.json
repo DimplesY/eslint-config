@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@dimplesyj/eslint-config-basic": "workspace:*",
+    "@dimplesyj/eslint-config-typescript": "workspace:*",
     "eslint": "^8.35.0"
   }
 }
