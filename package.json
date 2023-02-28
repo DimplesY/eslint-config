@@ -1,6 +1,6 @@
 {
   "name": "@dimplesyj/eslint-config-monorepo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@7.28.0",
   "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
