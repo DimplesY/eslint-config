@@ -1,6 +1,6 @@
 {
   "name": "@dimplesyj/eslint-config-vue",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "DimplesY's ESLint config presets",
   "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
   "license": "MIT",
