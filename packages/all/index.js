@@ -1,5 +1,5 @@
 const { defineConfig } = require('eslint-define-config')
 
-module.export = defineConfig({
-  extends: [],
+module.exports = defineConfig({
+  extends: ['@dimplesyj/eslint-config-vue'],
 })

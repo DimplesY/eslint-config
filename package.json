@@ -12,7 +12,7 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@dimplesyj/eslint-config-basic": "workspace:^0.0.1",
+    "@dimplesyj/eslint-config": "workspace:^0.0.1",
     "bumpp": "^9.0.0",
     "eslint": "^8.35.0",
     "rimraf": "^4.1.2",

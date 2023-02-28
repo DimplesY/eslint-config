@@ -1,5 +1,5 @@
 {
-  "name": "@dimplesyj/eslint-config",
+  "name": "@dimplesyj/eslint-config-react",
   "version": "0.0.1",
   "description": "DimplesY's ESLint config presets",
   "author": "DimplesY <dimplesyj@gmail.com> (https://github.com/DimplesY/)",
@@ -11,14 +11,21 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@dimplesyj/eslint-config-vue": "workspace:*",
-    "eslint-define-config": "^1.15.0"
+    "@dimplesyj/eslint-config-ts": "workspace:*",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.35.0"
+    "eslint": "^8.35.0",
+    "eslint-define-config": "^1.15.0",
+    "react": "^18.2.0",
+    "typescript": "^4.9.5"
   }
 }
