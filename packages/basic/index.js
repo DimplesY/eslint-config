@@ -337,6 +337,8 @@ module.exports = defineConfig({
     'unicorn/prefer-text-content': 'error',
     // Enforce throwing type error when throwing error while checking typeof
     'unicorn/prefer-type-error': 'error',
+    // Prefer using the node: protocol
+    'unicorn/prefer-node-protocol': 'error',
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
 
