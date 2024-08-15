@@ -1,0 +1,21 @@
+{
+  "name": "@dimplesyj/eslint-config",
+  "version": "0.0.1",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.cjs",
+      "node": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^2.24.1"
+  }
+}
